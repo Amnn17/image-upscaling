@@ -4,6 +4,7 @@ import os
 import io
 from zipfile import ZipFile
 
+
 # Function to auto-enhance and upscale a single image
 def auto_enhance_and_upscale_image(img, scale_factor=2, color_factor=1.5, brightness_factor=1.2, contrast_factor=1.3):
     # Step 1: Enhance the color
