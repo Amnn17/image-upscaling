@@ -61,7 +61,7 @@ else:
 
 # Main interface for uploading images
 st.write("Upload images or select a folder to enhance and upscale:")
-uploaded_files = st.file_uploader("Choose images", type=["png", "jpg", "jpeg", "bmp", "gif"], accept_multiple_files=True)
+uploaded_files = st.file_uploader("Choose images", type=["png", "jpg", "jpeg", "bmp", "gif", "webp"], accept_multiple_files=True)
 
 # Number input for scale factor
 scale_factor = st.number_input("Scale Factor", min_value=1, max_value=10, value=2)

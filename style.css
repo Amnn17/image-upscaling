@@ -1,0 +1,6 @@
+body {
+    background-image: url('background_image.jpg'); /* Adjust the file path as needed */
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white; /* Adjust text color for visibility against your background */
+}
